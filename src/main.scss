@@ -1,0 +1,35 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+$primary: #DB4040;
+$font-family-base: 'Playfair Display', serif;
+
+
+//$font-family-base : 'PlayFair', 'display';
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    background-color: beige !important;
+}
+
+// .ispace{
+//     margin-left: 20px;
+// }
+
+
+
+
+.typewriter-text {
+  overflow: hidden; /* Hide overflow */
+  border-right: 1px solid #333; /* Add a cursor effect */
+  white-space: nowrap; /* Prevent text from wrapping */
+  margin: 0 auto; /* Center the text */
+  letter-spacing: 0.1em; /* Adjust letter spacing for appearance */
+}
